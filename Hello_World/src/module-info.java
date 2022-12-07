@@ -5,5 +5,5 @@
  * @author lillyhall
  *
  */
-module JavaLab3 {
+module Hello_World {
 }
