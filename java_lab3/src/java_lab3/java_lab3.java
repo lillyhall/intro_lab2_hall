@@ -1,8 +1,11 @@
-/**
- * 
- */
-package HelloWorld;
+package java_lab3;
 
+public class LabProgram {
+
+	public LabProgram() {
+	}
+
+}
 import java.util.Scanner;
 
 public class LabProgram {
@@ -27,11 +30,10 @@ if(n<0){
 }
    
    public static void main(String[] args) {
-      try (var scnr = new Scanner(System.in)) {
-		int startNum;
-		  
-		  startNum = scnr.nextInt();
-		  System.out.println("fibonacci(" + startNum + ") is " + fibonacci(startNum));
-	}
+      Scanner scnr = new Scanner(System.in);
+      int startNum;
+      
+      startNum = scnr.nextInt();
+      System.out.println("fibonacci(" + startNum + ") is " + fibonacci(startNum));
    }
 }
